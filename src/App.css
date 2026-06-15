@@ -1,0 +1,23 @@
+@tailwind base;
+@tailwind components;
+@tailwind utilities;
+header ul li {
+    @apply px-2;
+}
+.bg-secondary{
+    background: rgb(41, 30, 79);
+}
+.bg-primary{
+  background: rgb(64, 64, 179); 
+}
+.mobile-nav{
+    @apply fixed top-10 left-0 bg-gray-800 w-full h-1/4 ;
+}
+.mobile-nav li{
+    @apply w-full h-full text-center border-b-2  ;
+}
+.btn{
+    @apply bg-primary px-5 py-2 font-bold border-2 hover:border-yellow-800 rounded;
+}html{
+    scroll-behavior: smooth;
+}
